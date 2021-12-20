@@ -41,7 +41,9 @@ footer {
 #caja {
     text-align: right;
     border: 10px solid #000000;
-    background: #B68D40;
+    background: #e65c00;
+    background: -webkit-linear-gradient(to bottom, #e65c00, #f9d423);
+    background: linear-gradient(to bottom, #e65c00, #f9d423);
     height: 269px;
     width: 409px;
     padding: 64px 32px 32px;
