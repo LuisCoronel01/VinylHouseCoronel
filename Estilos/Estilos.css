@@ -74,12 +74,14 @@ h2 {
 background-color: black;
 align-items: center;
 }
+.Darksideimg {
+    width: 1500px;
+    height: 300px;
+    content: center;
+    
+}
 @media only screen and (max-width:480px) {
     .banner {
-    width: "40";
-    height: "40";
-    }
-    #Darksideimg {
     width: "40";
     height: "40";
     }
@@ -89,8 +91,18 @@ align-items: center;
         grid-gap: 1em;
         background-color: black;
     }
-    .darksideimg{
-        width: 300px;
-        height: 300px;
+    img {
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+    }
+    .Darksideimg {
+        height: 320px;
+        width: 320px;
+    }
+    #caja {
+        width: auto;
+        height: auto;
+        text-align: center;
     }
 }
