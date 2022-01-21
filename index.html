@@ -18,11 +18,17 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
     <script src="https://kit.fontawesome.com/1a66ded115.js" crossorigin="anonymous"></script>
+    <script src="/app.js" defer></script>
 </head>
     <header>
         <nav class="menu">
-            <label class="logo">VINYL HOUSE</label>   
-            <ul class="menu_items"  id="otroModo">                
+            <nav>
+                <input type="checkbox" id="check">
+                <label for="check" class="checkbtn">
+                    <i class="fas fa-bars"></i>
+                </label>
+            <label class="logo">VINYL HOUSE</label>
+            <ul>      
             <li class="active"><a href="#">INICIO</a></li>
             <li><a href="pages/carrito.html">CARRITO</a></li>
             <li><a href="pages/login.html">LOGIN</a></li>
@@ -30,19 +36,34 @@
             <li><a href="pages/Ayuda.html">AYUDA</a></li>
             </ul>
         </nav>
-        <span class="btn_menu" onclick="showmenu()">
-            <i class="fa fa-bars"></i>
-        </span>
-
     </header>
-    <hr>
-<section class="banner">
-        <img src="Multimedia/bannerdarkside.jpg" class="Darksideimg">
-    </section>
-    </main>
+<div class="container__slider">
+    <ul class="slider">
+        <li id="slide1">
+            <img src="/Multimedia/Banner_novedades-1425x0.jpg">          
+        </li>
+        <li id="slide2">
+            <img src="/Multimedia/1-PIEZA-IRON-MAIDEN-1425x0.jpg">
+        </li>
+        <li id="slide3">
+            <img src="/Multimedia/1-PIEZA-COLDPLAY-1425x0.jpg">
+        </li>
+    </ul>
+    <ul class="menu__slider">
+        <li>
+            <a href="#slide1">1</a>
+        </li>
+        <li>
+            <a href="#slide2">1</a>
+        </li>
+        <li>
+            <a href="#slide3">1</a>
+        </li>
+    </ul>
+    </div>
 <body>
 <div class="ListadoProductos">
-    <h1>Nuestros productos</h1>
+    <h1><b>Nuestros productos mas vendidos</b></h1>
     <article class="ContenedorProductos">
     <section class="FotosProductos">
     <img src="Multimedia/Clash.jpg" alt="img1">
@@ -50,6 +71,12 @@
     <img src="Multimedia/Cure.jpg" alt="img3">
     <img src="Multimedia/Joydi.jpg" alt="img4">
     <img src="Multimedia/Moon.jpg" alt="img5">
+
+    </article>
+</div>
+<div class="ListadoProductos">
+    <h1><b>Hsedasdas</b></h1>
+    <section class="FotosProductos">
     <img src="Multimedia/Order.jpg" alt="img6">
     <img src="Multimedia/Pepper.jpg" alt="img7">
     <img src="Multimedia/Strokes.jpg" alt="img8">
@@ -57,7 +84,6 @@
     <img src="Multimedia/Wall.jpg" alt="img10">
     <img src="multimedia/YE.jpg" alt="img11">
     <img src="multimedia/Jesus.jpg" alt="img12">
-    </article>
 </div>
 </body>
 <div class="footer-dark">
@@ -65,19 +91,19 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-6 col-md-3 item">
-                    <p>Services</p>
+                    <p>Servicios</p>
                     <ul>
-                        <li><a href="#">Web design</a></li>
-                        <li><a href="#">Development</a></li>
-                        <li><a href="#">Hosting</a></li>
+                        <li><a href="#">Ventas </a></li><br>
+                        <li><a href="#">  Consultas  </a></li><br>
+                        <li><a href="#">Nosotros</a></li>
                     </ul>
                 </div>
                 <div class="col-sm-6 col-md-3 item">
-                    <p>About</p>
+                    <p>Formas de pago</p>
                     <ul>
-                        <li><a href="#">Company</a></li>
-                        <li><a href="#">Team</a></li>
-                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Company</a></li><br>
+                        <li><a href="#">Team</a></li><br>
+                        <li><a href="#">Careers</a></li><br>
                     </ul>
                 </div>
                 <div class="col-md-6 item text">
