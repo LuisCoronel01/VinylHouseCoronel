@@ -18,6 +18,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
 <script src="https://kit.fontawesome.com/1a66ded115.js" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
 </head>
 <body>
     <header>
@@ -39,18 +40,54 @@
     </header>  
 </body>
 <main>
-    <h1>¿Tenes alguna duda?</h1>
-    <h2>Preguntas frecuentes</h2>
-    <div class="header">
-    <h3>Pregunta?</h3><br>
-    <article>ipsum dolor sit amet consectetur adipisicing elit. Dolore cum labore placeat? Asperiores aliquam debitis facere non quas ab voluptatem itaque corporis aut doloribus praesentium nihil, consequuntur labore eaque assumenda.</article><br>
-    <h3>Pregunta?</h3><br>
-    <article>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam, libero laborum fuga illo cum eaque unde temporibus quis ipsum. Nulla quasi sequi modi voluptatum quidem nam earum minima, numquam obcaecati.</article><br>
-    <h3>Pregunta?</h3><br>
-    <article>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore, totam aliquam? Odio possimus neque repellendus, quis corporis voluptatum dolorem praesentium atque, officia excepturi rerum. Minima exercitationem ullam eius quibusdam magnam?</article><br>
-</div>
+<section class="ayuda">
+    <div class="container__acordion">
+        <div class="acordion">
+            <div class="acordion__item" id="pregunta1">
+                <a class="acordion_link" href="#pregunta1">
+                    Lorem1
+                <i class="add"><ion-icon name="add"></ion-icon></i>   
+                <i class="remove"><ion-icon name="remove"></ion-icon></i>
+                </a>
+                <div class="respuesta">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus et accusantium quasi perspiciatis aut, officiis quos vitae ea, itaque officia natus, earum iste dignissimos voluptate deleniti dolor? Sint, fuga nostrum!</p>
+                </div>
+            </div>
+            <div class="acordion__item" id="pregunta2">
+                <a class="acordion_link" href="#pregunta2">
+                    Lorem1
+                    <i class="add"><ion-icon name="add"></ion-icon></i>
+                    <i class="remove"><ion-icon name="remove"></ion-icon></i>
+                </a>
+                <div class="respuesta">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus et accusantium quasi perspiciatis aut, officiis quos vitae ea, itaque officia natus, earum iste dignissimos voluptate deleniti dolor? Sint, fuga nostrum!</p>
+                </div>
+            </div>
+            <div class="acordion__item" id="pregunta3">
+                <a class="acordion_link" href="#pregunta3">
+                    Lorem1
+                    <i class="add"><ion-icon name="add"></ion-icon></i>
+                    <i class="remove"><ion-icon name="remove"></ion-icon></i>
+                </a>
+                <div class="respuesta">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus et accusantium quasi perspiciatis aut, officiis quos vitae ea, itaque officia natus, earum iste dignissimos voluptate deleniti dolor? Sint, fuga nostrum!</p>
+                </div>
+            </div>
+            <div class="acordion__item" id="pregunta4">
+                <a class="acordion_link" href="#pregunta4">
+                    Lorem1
+                    <i class="add"><ion-icon name="add"></ion-icon></i>
+                    <i class="remove"><ion-icon name="remove"></ion-icon></i>
+                </a>
+                <div class="respuesta">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus et accusantium quasi perspiciatis aut, officiis quos vitae ea, itaque officia natus, earum iste dignissimos voluptate deleniti dolor? Sint, fuga nostrum!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
     <h1>¿Tenes consultas?</h1>
-    <section>
+    <section class="Caja__preguntas">
     <form action="enviar.php" method="post"
     enctype="application/x-www-form-urlencoded">
 <textarea name="areadetexto" id="cajaPreguntas"
