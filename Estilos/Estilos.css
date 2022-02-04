@@ -507,3 +507,16 @@ body{
 .titulo__roto{
   visibility: hidden;
 }
+.Agregar__carrito button{
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 20px 50px 20px 50px;
+  background-color: #9b6b12;
+  justify-content: center;
+}
+.Fotos__Productos {
+  display:grid;
+  gap: 8rem;
+  grid-auto-rows: 30rem;
+  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+  }
